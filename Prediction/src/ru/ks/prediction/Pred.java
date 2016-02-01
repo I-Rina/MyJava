@@ -84,7 +84,7 @@ public class Pred {
 		l.add("¬ас ждет неудача, но она обернетс€ удачей в будущем.");
 		l.add("Ѕудьте осторожны со своими желани€ми Ц они могут исполнитьс€!");
 		l.add("¬ас ждет непри€тна€ встреча.");
-		JOptionPane.showMessageDialog(null, l.get(r.nextInt(72)), "¬аше предсказание", JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane.showMessageDialog(null, l.get(r.nextInt(l.size())), "¬аше предсказание", JOptionPane.INFORMATION_MESSAGE);
 	}
 }
 	
